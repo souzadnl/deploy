@@ -141,9 +141,9 @@ function Navbar() {
                 <Link to="/">
                     <picture>
                     <source media="(min-width: 1025px)"  width="109.87px" srcset="/images/logo.webp"></source>
-                    <source media="(max-width: 1025px)"  width="36px" srcset="/images/logoMobile.webp"></source>
                     <img src="" alt="Descrição da Imagem"></img>
                     </picture>
+                    <img src="/images/logoMobile.webp"></img>
                 </Link>
 
                 <DivLinks id="linksNavbar">
