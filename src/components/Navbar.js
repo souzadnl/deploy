@@ -143,7 +143,7 @@ function Navbar() {
                     <source media="(min-width: 1025px)"  width="109.87px" srcset="/images/logo.webp"></source>
                     <img src="" alt="Descrição da Imagem"></img>
                     </picture>
-                    <img src="/images/logoMobile.webp"></img>
+                    <img src="./images/logo.webp"></img>
                 </Link>
 
                 <DivLinks id="linksNavbar">
