@@ -147,8 +147,8 @@ function Navbar() {
                 </Link>
 
                 <DivLinks id="linksNavbar">
-                        <li><StyledNavLink to="/" activeClassName="active">HOME</StyledNavLink></li>
-                        <li><StyledNavLink to="/Produtos" activeClassName="active">PRODUTOS</StyledNavLink></li>
+                        <li><StyledNavLink to="/" activeClassName="active"></StyledNavLink></li>
+                        <li><StyledNavLink to="/Produtos" activeClassName="active"></StyledNavLink></li>
                         <li><StyledNavLink to="/Quemsomos">QUEM⠀SOMOS?</StyledNavLink></li>
                         <li><StyledNavLink to="/Contato">CONTATO</StyledNavLink></li>
                 </DivLinks>
