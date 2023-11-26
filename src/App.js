@@ -15,7 +15,7 @@ import Produtos_completo from "./pages/Produtos_completo"
 function App() {
   return (
     <Router>
-    <Navbar logo1 = "./images/logo.webp"></Navbar>
+    <Navbar logo1 = "../images/logo.webp"></Navbar>
 
     <ScrollToTopOnPageChange></ScrollToTopOnPageChange>
     <Routes>
