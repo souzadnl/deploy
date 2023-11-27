@@ -140,7 +140,7 @@ function Navbar(props) {
         <nav class="px-4 py-2 navbar fixed-top p-1 d-flex shadow-3xl border-b border-gray-300 bg-white">
             <BarraNavegacao class="container-fluid">
                 <Link to="/">
-                    <img src="./images/logo.webp"></img>
+                    <img src="/images/ImagemTopoProdutos.webp"></img>
                 </Link>
 
                 <DivLinks id="linksNavbar">
