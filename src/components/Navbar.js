@@ -143,6 +143,9 @@ function Navbar(props) {
                     <img src={props.logo1}></img>
                 </Link>
                 <img src="./images/logo.webp"></img>
+                <img src="../images/logo.webp"></img>
+                <img src="C:\Users\12dan\OneDrive\Documentos\Programação\teste\public\images\Logo (1).webp"></img>
+                <img src="./images/logo.webp"></img>
 
                 <DivLinks id="linksNavbar">
                         <li><StyledNavLink to="/" activeClassName="active">HOME</StyledNavLink></li>
