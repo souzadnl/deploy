@@ -144,9 +144,9 @@ function Navbar(props) {
                     
                     <img src={props.logo1}></img>
                 </Link>
-                <img src={img}></img>
-                <img src="../images/logo.webp"></img>
-                <img src="./images/logo.webp"></img>
+                <img src="./public/images/Logo.webp"></img>
+                <img src="../public/images/Logo.webp"></img>
+                <img src=".../public/images/Logo.webp"></img>
 
                 <DivLinks id="linksNavbar">
                         <li><StyledNavLink to="/" activeClassName="active">HOME</StyledNavLink></li>
