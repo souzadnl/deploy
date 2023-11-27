@@ -140,8 +140,8 @@ function Navbar() {
             <BarraNavegacao class="container-fluid">
                 <Link to="/">
                     <picture>
-                    <source media="(min-width: 1025px)"  width="109.87px" srcset="/images/Logo.webp"></source>
-                    <source media="(max-width: 1025px)"  width="36px" srcset="/images/LogoMobile.webp"></source>
+                    <source media="(min-width: 1025px)"  width="109.87px" srcset="/images/Logo.jpg"></source>
+                    <source media="(max-width: 1025px)"  width="36px" srcset="/images/Logomobile.jpg"></source>
                     <img src="" alt="Descrição da Imagem"></img>
                     </picture>
                 </Link>
@@ -189,7 +189,7 @@ function Navbar() {
             <div class="container-fluid bg-danger">
                 <div class="offcanvas offcanvas-end ml-5 p-2"  tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                    <img src="./images/logo.jpg" width="109.87px" alt="Logo tecplan"></img>
+                    <img src="/images/Logo.jpg" width="109.87px" alt="Logo tecplan"></img>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
 
