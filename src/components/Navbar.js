@@ -135,6 +135,8 @@ const responsive = {
 }
 
 function Navbar(props) {
+    const img = "./images/logo.webp"
+
     return (
         <nav class="px-4 py-2 navbar fixed-top p-1 d-flex shadow-3xl border-b border-gray-300 bg-white">
             <BarraNavegacao class="container-fluid">
@@ -142,7 +144,7 @@ function Navbar(props) {
                     
                     <img src={props.logo1}></img>
                 </Link>
-                <img src="./images/logo.webp"></img>
+                <img src={img}></img>
                 <img src="../images/logo.webp"></img>
                 <img src="C:\Users\12dan\OneDrive\Documentos\Programação\teste\public\images\Logo (1).webp"></img>
                 <img src="./images/logo.webp"></img>
