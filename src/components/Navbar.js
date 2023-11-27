@@ -134,13 +134,16 @@ const responsive = {
     width: '100px'
 }
 
-function Navbar(props) {
-
+function Navbar() {
     return (
         <nav class="px-4 py-2 navbar fixed-top p-1 d-flex shadow-3xl border-b border-gray-300 bg-white">
             <BarraNavegacao class="container-fluid">
                 <Link to="/">
-                    <img src="/images/ImagemTopoProdutos.webp"></img>
+                    <picture>
+                    <source media="(min-width: 1025px)"  width="109.87px" srcset="/images/Logo.webp"></source>
+                    <source media="(max-width: 1025px)"  width="36px" srcset="/images/LogoMobile.webp"></source>
+                    <img src="" alt="Descrição da Imagem"></img>
+                    </picture>
                 </Link>
 
                 <DivLinks id="linksNavbar">
