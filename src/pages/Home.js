@@ -8,7 +8,7 @@ function Home(){
         <div>
             <ImagemTopoMenor image="./images/ImagemTopoHome.webp"></ImagemTopoMenor>
             <ContainerProdutos></ContainerProdutos>
-            <CardImage image="./images/Cardimage.webp"></CardImage>
+            <CardImage image="/images/CardImage.webp"></CardImage>
         </div>
         
     )
