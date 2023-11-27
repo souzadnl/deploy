@@ -146,7 +146,6 @@ function Navbar(props) {
                 </Link>
                 <img src={img}></img>
                 <img src="../images/logo.webp"></img>
-                <img src="C:\Users\12dan\OneDrive\Documentos\Programação\teste\public\images\Logo (1).webp"></img>
                 <img src="./images/logo.webp"></img>
 
                 <DivLinks id="linksNavbar">
